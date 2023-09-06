@@ -70,7 +70,7 @@ export async function DELETE(
 ) {
   try {
   } catch (error) {
-    console.log("[MEMBERS_ID_DELETE", error);
+    console.log("[MEMBERS_ID_DELETE]", error);
     return new NextResponse("Internal Error", { status: 500 });
   }
 }
